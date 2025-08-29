@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - El Balsero</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #1F2937;
+            background: linear-gradient(135deg, #1E88E5 0%, #0D47A1 100%);
+            min-height: 100vh;
+            padding: 16px;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #FFFFFF;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+            overflow: hidden;
+            animation: fadeIn 0.5s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .header {
+            background: linear-gradient(135deg, #1E88E5 0%, #1565C0 100%);
+            color: #FFFFFF;
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .app-icon {
+            width: 64px;
+            height: 64px;
+            background: #FFFFFF;
+            border-radius: 12px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .content {
+            padding: 32px 24px;
+        }
+        .effective-date {
+            background: #E3F2FD;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            border-left: 4px solid #1E88E5;
+            font-size: 0.95rem;
+            color: #1F2937;
+        }
+        .section {
+            margin-bottom: 24px;
+            opacity: 0;
+            animation: slideIn 0.5s ease-out forwards;
+            animation-delay: calc(0.1s * var(--section-index));
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .section h2 {
+            color: #1F2937;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #E5E7EB;
+            padding-bottom: 6px;
+        }
+        .section p {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+        .highlight {
+            background: #E8F5E9;
+            padding: 16px;
+            border-radius: 8px;
+            border-left: 4px solid #4CAF50;
+            margin: 16px 0;
+        }
+        .contact-info {
+            background: #E3F2FD;
+            padding: 16px;
+            border-radius: 8px;
+            border-left: 4px solid #1E88E5;
+            margin: 16px 0;
+            font-size: 0.95rem;
+        }
+        .contact-info a {
+            color: #1E88E5;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .footer {
+            background: #1F2937;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 16px;
+            font-size: 0.9rem;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 12px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <div class="app-icon">
+            <!-- Icono de bote o barco para "El Balsero" -->
+            <svg width="40" height="40" viewBox="0 0 512 512" fill="#1E88E5" xmlns="http://www.w3.org/2000/svg">
+                <path d="M477.77 246.42c-2.13-6-7.23-9.55-12.56-11.95L432 221.38V92a20 20 0 0 0-20-20h-76V40a16 16 0 0 0-16-16H192a16 16 0 0 0-16 16v32h-76a20 20 0 0 0-20 20v129.46l-33.08 13.06c-5.33 2.4-10.58 6-12.72 12s-3.16 11.81-1 19L84.25 415.7h1.06c34.12 0 64-17.41 85.31-43.82 21.32 26.41 51.18 42.12 85.3 42.12s64-15.76 85.31-42.17c21.32 26.41 51.18 43.87 85.3 43.87h1.06l51.25-140.17c2.16-6 1.07-13.1-1.07-19.11zM432 148v59.83l-143.13 49.05a63.81 63.81 0 0 1-41.75 0L80 207.83V148z"/>
+            </svg>
+        </div>
+        <h1>El Balsero</h1>
+        <p>Política de Privacidad</p>
+    </header>
+
+    <main class="content">
+        <section class="effective-date" style="--section-index: 1;">
+            <strong>Fecha de entrada en vigor:</strong> Agosto de 2025
+        </section>
+
+        <section class="section" style="--section-index: 2;">
+            <h2>🛥️ Su Privacidad es Nuestra Prioridad</h2>
+            <p>En El Balsero, nos comprometemos a proteger la información personal de nuestros usuarios. Esta política explica cómo se recopila, usa y protege su información cuando utiliza la aplicación.</p>
+        </section>
+
+        <section class="section" style="--section-index: 3;">
+            <h2>📱 Información que Recopilamos</h2>
+            <div class="highlight">
+                <p>Nuestra aplicación requiere conexión a internet para funcionalidades en línea. Los datos recopilados son mínimos y usados únicamente para ofrecer una experiencia segura y de calidad.</p>
+            </div>
+        </section>
+
+        <section class="section" style="--section-index: 4;">
+            <h2>🔐 Permisos de la Aplicación y su Uso</h2>
+            <p>Para funcionar correctamente, nuestra aplicación requiere los siguientes permisos:</p>
+            <ul>
+                <li><strong>Internet:</strong> Para conectarse con servidores y proporcionar contenido actualizado.</li>
+                <li><strong>Estado de la red:</strong> Para verificar la conectividad y optimizar el rendimiento.</li>
+                <li><strong>Vibración:</strong> Para efectos de retroalimentación táctil durante la interacción.</li>
+                <li><strong>Grabación de audio:</strong> Para funciones específicas que requieran entrada de audio.</li>
+            </ul>
+        </section>
+
+        <section class="section" style="--section-index: 5;">
+            <h2>💾 Almacenamiento de Datos</h2>
+            <p>Podemos guardar:</p>
+            <ul>
+                <li><strong>Datos de la aplicación:</strong> Preferencias y configuraciones personalizadas.</li>
+                <li><strong>Progreso:</strong> Información sobre su avance en la aplicación.</li>
+            </ul>
+        </section>
+
+        <section class="section" style="--section-index: 6;">
+            <h2>🌐 Servicios de Terceros</h2>
+            <ul>
+                <li><strong>Servidores:</strong> Para funcionalidades en línea.</li>
+                <li><strong>Servicios de análisis:</strong> Para mejorar la aplicación mediante datos anónimos de uso.</li>
+            </ul>
+        </section>
+
+        <section class="section" style="--section-index: 7;">
+            <h2>🔒 Seguridad de la Información</h2>
+            <p>Implementamos medidas de seguridad para proteger sus datos. Toda la comunicación con nuestros servidores utiliza protocolos seguros.</p>
+        </section>
+
+        <section class="section" style="--section-index: 8;">
+            <h2>📝 Cambios en la Política de Privacidad</h2>
+            <p>Podemos actualizar esta política en el futuro. Los cambios se notificarán en esta página y, si son relevantes, dentro de la aplicación.</p>
+        </section>
+
+        <section class="section" style="--section-index: 9;">
+            <h2>📞 Contacto</h2>
+            <div class="contact-info">
+                <p><strong>Si tiene dudas sobre esta Política de Privacidad:</strong></p>
+                <p>📧 <strong>Correo:</strong> <a href="mailto:denisijcu266@gmail.com">denisijcu266@gmail.com</a></p>
+                <p>📱 <strong>App:</strong> El Balsero</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p><strong>El Balsero</strong> - Disfruta responsablemente</p>
+        <p>Última Actualización: Agosto de 2025</p>
+    </footer>
+</div>
+</body>
+</html>
